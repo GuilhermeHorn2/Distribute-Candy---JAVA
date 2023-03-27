@@ -63,17 +63,6 @@ public class main_misc {
 		quickSort(v,l+1,end);
 	}
 	
-	private static int no_zeros(int[]v) {
-		//
-		for(int i= 0;i < v.length;i++) {
-			if(v[i] == 0) {
-				//has a zero
-				return 0;
-			}
-		}
-		//no zeros
-		return 1;
-	}
 	private static int min_candy(int[]v) {
 		//
 		int [][] r = organize(v);
